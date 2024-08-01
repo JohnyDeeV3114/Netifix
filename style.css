@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: azure;
+}
+
+#container {
+    background: url("./assets/background.jpeg");
+    padding-bottom: 150px;
+}
+
+#logo-netflix {
+    height: 44px;
+}
+
+#botão-entrar {
+    background-color: #e50914;
+    color: azure;
+    font-size: 16px;
+    padding: 8px 18px 8px 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#botão-entrar:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+
+#cabeçalho {
+    padding: 28px 56px;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 64px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#paragrafo-assista{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#paragrafo-pronto{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    color: #303030;
+    cursor: pointer;
+}
+
+#botão-email{
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+#botão-email:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+
+#formulário{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+    
+}
+
+#rodape{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#botão-pergunta{
+    width: 700px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+
+}
+
+#imagem-pergunta{
+    float: right;
+    margin-top: 7px;
+    transform: rotate(45deg);
+}
+
+#pergunta{
+    width: 700px;
+    background-color: #303030;
+    margin: 5px auto 0 auto;
+    padding: 24px;
+    font-size: 24px;
+    display: none;
+}
